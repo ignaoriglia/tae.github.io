@@ -1,0 +1,646 @@
+*{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+	background-color: #fff;
+	
+
+}
+
+/* _____________________
+
+
+    	NAVBAR
+
+	____________________*/
+.show{
+	display: flex !important;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	
+	
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 10px;
+	position: relative;
+	bottom: 10px;
+}
+nav ul li > a{
+	display: block;
+	font-family: Quicksand;
+	position: relative;
+	padding: 20px 15px 10px 15px;
+	text-decoration: none;
+	color: rgb(27, 27, 25);
+}
+nav ul li .link::before{
+	content: '';
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
+	background-color: rgb(25, 25, 26);
+}
+nav ul li .link:hover::before{
+	transform: scaleX(1);
+}
+nav .more {
+	display: none;
+}
+nav .menu{
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	min-width: 200px;
+	background-color: aliceblue;
+	margin-top: 48px;
+}
+nav .menu a {
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+nav .menu a:hover {	
+	background-color: black;
+	color: aliceblue;	
+}
+nav .mobile {
+	display: none;
+	width: 100%;
+}
+nav .mobile .header {
+	background-color: black;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	flex-direction: row;
+}
+nav .mobile .header a {
+	color: aliceblue;
+	display: inline-flex;
+	text-decoration: none;
+	padding: 10px;
+}
+nav .mobile .header #bmenu {
+	border: none;
+	background-color: transparent;
+	color: aliceblue;
+	cursor: pointer;
+}
+nav .mobile .links{
+	display: none;
+	flex-direction: column;
+	position: relative;
+	z-index: 200;
+	background-color: black;
+}
+nav .mobile .links a {
+	font-size: 20px;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: aliceblue;
+}
+nav .mobile .links a:hover {
+	font-size: 20px;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	background-color: aliceblue;
+}
+
+/* _____________________
+
+
+    	HEADER
+
+	____________________*/
+
+header{
+	background-image: url(../img/mosaico-paisaje-1.jpg);
+	background-size: cover;
+	
+	background-position: center center;
+	height: 100vh;
+	
+}
+
+.foto-alojamientos {
+	background-image: url(../img/web-3.jpg);
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
+.foto-kayak {
+	background-image: url(../img/kayak-3.jpg);
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
+.foto-sendero {
+	background-image: url(../img/igna-1.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
+.foto-aves {
+	background-image: url(../img/aves/baner-1.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
+
+/* _____________________
+
+
+    	BANNER
+
+	____________________*/
+
+#banner-home {
+	font-size: 1.4em;
+	font-family: Quicksand;
+	text-align: center;
+	padding: 40px;
+	width: 500px;
+	position: absolute;
+	z-index: 100;
+	top: 200px;
+	right: 100px;
+	color: aliceblue;
+	background-color: black;
+	filter: opacity(0.7);
+	border-radius: 15px;
+	
+}
+
+#banner-home {
+	font-size: 1.4em;
+	font-family: Quicksand;
+	text-align: center;
+	padding: 40px;
+	width: 500px;
+	position: absolute;
+	z-index: 100;
+	top: 200px;
+	right: 100px;
+	color: aliceblue;
+	background-color: black;
+	filter: opacity(0.7);
+	border-radius: 15px;
+	
+}
+
+#banner-alojamientos {
+	font-size: 1.4em;
+	font-family: Quicksand;
+	text-align: center;
+	padding: 40px;
+	width: 500px;
+	position: absolute;
+	z-index: 100;
+	top: 200px;
+	right: 100px;
+	color: aliceblue;
+	background-color: black;
+	filter: opacity(0.7);
+	border-radius: 15px;
+	
+}
+
+.green-buttom{
+	border: 0;
+	display: inline-flex;
+	align-items: center;
+	font-size: 14px;
+	padding: 10px, 40px;
+	background-color: greenyellow;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.green-buttom:hover {
+	background-color: rgb(138, 207, 33);
+}
+
+.green-link{
+	border: 0;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	font-size: 16px;
+	padding: 10px, 15px;	
+	color: greenyellow;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.green-link::before{
+	content: '';
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	transform: scaleX(0);
+	transition: transform 0.3s ease;
+	background-color: greenyellow;
+}
+
+.green-link:hover::before{
+	transform: scaleX(0.9);
+}
+
+/* _____________________
+
+
+    	TURISMO ALTERNATIVO
+
+	____________________*/
+
+.parrafo-especial {
+	width: 75%;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 1.2em;
+	font-family: Aboreto;
+	padding-top: 30 px;
+}
+.parrafo-comun {
+	width: 75%;
+	margin: auto;
+	margin-top: 20px;
+	padding-top: 30 px;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.6em;
+	font-family: Aboreto;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	color: black;
+}
+
+
+#turismo-alternativo {
+	text-align: center;
+	
+	height: 50%;
+	padding: 30px 20px;
+	background-color: white;
+	filter: opacity(0.9);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black
+	
+}
+
+/* ________________________________
+
+
+    	TURISMO ALTERNATIVO TIPOS
+
+	_______________________________*/
+
+#turismo-alternativo-tipos {
+	text-align: center;	
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	color: black;
+	padding-top: 30px;
+}
+
+.ecoturismo {
+	padding-top: 30px;
+}
+
+.turismo-cultural {
+	padding-top: 30px;
+}
+	
+
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+  }
+
+.imagenesCirculares {
+	height: 230px;
+	width: 230px;
+	border-radius: 100%;
+	
+	text-align: center;
+	border: 8px solid #fff;
+	cursor: pointer;
+	
+  }
+
+#kayak:hover{
+background-color: aqua;
+background-image: url(../img/kakak-1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#senderismo:hover{
+	background-color: aqua;
+	background-image: url(../img/senderismo-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#avistaje-aves:hover{
+	background-color: aqua;
+	background-image: url(../img/buho-feed-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bosque-nativo:hover{
+	background-color: aqua;
+	background-image: url(../img/bosque-nativo-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#recorridos-historicos:hover{
+	background-color: aqua;
+	background-image: url(../img/gruta-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#yoga:hover{
+	background-color: aqua;
+	background-image: url(../img/yoga-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#huerta:hover{
+	background-color: aqua;
+	background-image: url(../img/huerta.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imagenesCirculares p {
+	top: 45%;
+	margin: 0;
+	padding-top: 100px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 3px;
+	cursor: pointer;
+	font-size: 20px; 
+	font-family: Luckiest Guy;
+	
+}
+
+
+
+.fondoVerde {
+	background-color: rgba(0, 128, 0, 0.65);
+}
+
+.fondoNaranja {
+	background-color: rgba(255, 165, 0, 0.65);
+  }
+  .fondoAzul {
+	background-color: rgba(82, 116, 226, 0.65);
+  }
+
+  .fondoRosa {
+	background-color: rgba(196, 82, 180, 0.65);
+  }
+.turismo-aventura {	
+	text-align: center;
+	padding: 50px o;
+	background-color: white;	
+	color: black
+	
+}
+/* _____________________
+
+
+    	KAYAK
+
+	____________________*/
+
+#paseo-1 {
+		text-align: center;	
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+		color: black;
+		padding-top: 30px;
+	}
+#paseo-2 {
+	text-align: center;	
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	color: black;
+	padding-top: 30px;
+}
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+	padding: 15px;	
+	align-items: center;
+	justify-items: center;
+}
+
+.grid-item {	
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	height: 250px;
+	width: 100%;
+	cursor: pointer;
+	transition: 1s;
+	
+}
+
+.grid-item:hover {	
+	transform: scale(1.2);
+	
+}
+.ful-img{
+	height: 100vh;
+	width: 100%;
+	background-color: rgb(0, 0, 0, 0.9);
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	z-index: 99;
+}
+.ful-img img{
+	width: 90%;
+	max-width: 400px;
+}
+.ful-img span{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+/* _____________________
+<span class="material-symbols-outlined">follow_the_signs</span> sendero con indicaciones
+ <span class="material-symbols-outlined"> cycle </span> sendero circular
+<span class="material-symbols-outlined">kayaking</span> kayak
+
+    	Sendero
+		
+	____________________*/
+
+	#sendero-1 {
+		text-align: center;	
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+		color: black;
+		padding-top: 30px;
+	}
+
+
+.indicaciones {
+	text-align: center;	
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	color: black;	
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	padding-top: 30px;
+}
+
+.indicaciones p{
+	font-size: 15px;
+}
+
+.material-symbols-outlined {
+font-size: 50px;
+color: rgb(46, 41, 41);
+}
+
+/* _____________________
+
+
+    	Avistaje de Aves
+
+	____________________*/
+
+
+	#avistaje-aves-2 {
+		text-align: center;	
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+		color: black;
+		padding-top: 30px;
+	}
+
+
+
+	/* _____________________
+
+
+    	turismo cultural
+
+	____________________*/
+
+
+/* ________________________________
+
+
+    	INFORMACION
+
+	_______________________________*/
+
+
+	/* ________________________________
+
+
+    	ALOJAMIENTOS
+
+	_______________________________*/
+
+
+@media screen and (max-width: 640px) {
+	nav {
+		width: 100%;
+		padding: 0;
+	}
+	nav ul{
+		display: none;
+	}
+	nav .mobile{
+		display: block;
+	}
+	header {
+		background-position: center 30px;
+		height: 50vh;
+	}
+
+.foto-alojamientos {
+	background-position: center 30px;
+	height: 50vh;
+}
+
+#banner-home {
+		position: initial !important;
+		z-index: 100;
+		width: 100%;
+		color: white;
+		background-color: black;
+		filter: opacity(1);
+		border-radius: 1px;
+}
+
+.indicaciones {
+	text-align: center;	
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	color: black;	
+	display: block;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	width: 100%;
+	}
