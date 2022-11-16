@@ -10,23 +10,19 @@ body{
 	margin: 0;
 	line-height: 1.5;
 	background-color: #fff;
-	
-
 }
 
 footer {
 	text-align: center;
 	padding-top: 30px;
-	padding-bottom: 100px;
-	
+	padding-bottom: 100px;	
 }
 
 #redes {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	padding-top: 10px;
-	
+	padding-top: 10px;	
 }
 
 #wasap {
@@ -36,8 +32,18 @@ footer {
 	z-index: 1;
 }
 #wasap a {
-	display: block;
-	
+	display: block;	
+}
+
+.boton-subir {
+	background-color: rgba(252, 195, 7, 0.918);
+	padding: 10px;
+	margin: 35px;
+	font-size: 20px;		
+}
+
+.boton-subir:hover {
+	background-color: rgba(138, 107, 8, 0.918);	
 }
 
 /* _____________________
@@ -406,6 +412,20 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 	}
+#kayak a:link{
+	color: rgb(61, 175, 51);
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+#kayak a:visited{
+	color: rgb(49, 119, 43);
+	}
+
+#kayak a:hover{
+	color: rgb(30, 77, 207);
+	font-size: 20px;
+	}
 
 #senderismo{
 	background-color: aqua;
@@ -414,6 +434,23 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#senderismo a:link{
+	color: rgb(61, 175, 51);
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+#senderismo a:visited{
+	color: rgb(49, 119, 43);
+	}
+
+#senderismo a:hover{
+	color: rgb(30, 77, 207);
+	font-size: 20px;
+	}
+
+
 #bici{
 	background-color: aqua;
 	background-image: url(../img/logos/logo-cicloturismo.jpg);
@@ -421,6 +458,20 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#bici a:link{
+	color: rgb(61, 175, 51);
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+#bici a:visited{
+	color: rgb(49, 119, 43);
+	}
+
+#bici a:hover{
+	color: rgb(30, 77, 207);
+	font-size: 20px;
+	}
 #cabalgata{
 	background-color: aqua;
 	background-image: url(../img/logos/logo-cabalgatas.jpg);
@@ -443,6 +494,20 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#avistaje-aves a:link{
+	color: rgb(61, 175, 51);
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+#avistaje-aves a:visited{
+	color: rgb(49, 119, 43);
+	}
+
+#avistaje-aves a:hover{
+	color: rgb(30, 77, 207);
+	font-size: 20px;
+	}
 #bosque-nativo{
 	background-color: aqua;
 	background-image: url(../img/logos/logo-conservacion.jpg);
@@ -457,6 +522,20 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#recorridos-historicos a:link{
+	color: rgb(61, 175, 51);
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+#recorridos-historicos a:visited{
+	color: rgb(49, 119, 43);
+	}
+
+#recorridos-historicos a:hover{
+	color: rgb(30, 77, 207);
+	font-size: 20px;
+	}
 
 #yoga{
 	background-color: aqua;
@@ -472,6 +551,20 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#huerta a:link{
+	color: rgb(61, 175, 51);
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+#huerta a:visited{
+	color: rgb(49, 119, 43);
+	}
+
+#huerta a:hover{
+	color: rgb(30, 77, 207);
+	font-size: 20px;
+	}
 
 .imagenesCirculares p {
 	top: 45%;
