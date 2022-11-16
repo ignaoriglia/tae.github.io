@@ -25,13 +25,13 @@ footer {
 	padding-top: 10px;	
 }
 
-#wasap {
+.wasap {
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
 	z-index: 1;
 }
-#wasap a {
+.wasap a {
 	display: block;	
 }
 
@@ -780,6 +780,15 @@ header {
 		border-radius: 1px;
 }
 #banner-home2 {
+	position: initial !important;
+	z-index: 100;
+	width: 100%;
+	color: black ;
+	background-color: white;
+	filter: opacity(1);
+	border-radius: 1px;
+}
+#banner-alojamientos {
 	position: initial !important;
 	z-index: 100;
 	width: 100%;
