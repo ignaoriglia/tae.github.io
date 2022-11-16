@@ -14,6 +14,32 @@ body{
 
 }
 
+footer {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	
+}
+
+#redes {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-top: 10px;
+	
+}
+
+#wasap {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 1;
+}
+#wasap a {
+	display: block;
+	
+}
+
 /* _____________________
 
 
