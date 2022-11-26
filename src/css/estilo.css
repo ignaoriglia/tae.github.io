@@ -39,7 +39,8 @@ footer {
 	background-color: rgba(252, 195, 7, 0.918);
 	padding: 10px;
 	margin: 35px;
-	font-size: 20px;		
+	font-size: 15px;	
+	border-radius: 50%;	
 }
 
 .boton-subir:hover {
@@ -423,13 +424,13 @@ h3{
 	}
 
 #kayak a:hover{
-	color: rgb(19, 54, 150);
+	color: rgb(255, 0, 0);
 	font-size: 20px;
 	}
 
 #senderismo{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-senderismo.jpg);
+	background-image: url(../img/logos/senderismo.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -453,7 +454,7 @@ h3{
 
 #bici{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-cicloturismo.jpg);
+	background-image: url(../img/logos/bici.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -474,14 +475,14 @@ h3{
 	}
 #cabalgata{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-cabalgatas.jpg);
+	background-image: url(../img/logos/cabalgata.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #buceo{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-buceo.jpg);
+	background-image: url(../img/logos/buceo2.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -489,7 +490,7 @@ h3{
 
 #avistaje-aves{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-aves.jpg);
+	background-image: url(../img/logos/aves.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -508,16 +509,38 @@ h3{
 	color: rgb(19, 54, 150);
 	font-size: 20px;
 	}
+
+#fotografia{
+		background-color: aqua;
+		background-image: url(../img/logos/foto.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+#fotografia a:link{
+		color: rgb(30, 77, 207);
+		font-size: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		}
+		
+#fotografia{
+		color: rgb(162, 50, 228);
+		}
+	
+#fotografia a:hover{
+		color: rgb(19, 54, 150);
+		font-size: 20px;
+		}
 #bosque-nativo{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-conservacion.jpg);
+	background-image: url(../img/logos/BOSQUE.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #recorridos-historicos{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-historicos.jpg);
+	background-image: url(../img/logos/recorridos.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -539,14 +562,14 @@ h3{
 
 #yoga{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-yoga.jpg);
+	background-image: url(../img/logos/yoga4.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #huerta{
 	background-color: aqua;
-	background-image: url(../img/logos/logo-huerta.jpg);
+	background-image: url(../img/logos/huerta2.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
