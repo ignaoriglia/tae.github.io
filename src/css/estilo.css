@@ -227,13 +227,26 @@ header{
 	height: 100vh;
 }
 .foto-gruta {
-	background-image: url(../img/gruta-1.jpg );
+	background-image: url(../img/gruta-26.jpg );
 	background-size: cover;
 	background-position: center center;	
 	
 	height: 100vh;
 }
-
+.foto-yoga {
+	background-image: url(../img/su-27.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
+.foto-huerta {
+	background-image: url(../img/huerta/huerta-6.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
 /* _____________________
 
 
@@ -416,7 +429,16 @@ h3{
 	padding-top: 30px;
 }
 	
-
+.turismo-aventura {	
+	text-align: center;
+	padding: 30px o;
+	background-color: white;	
+	color: black
+	
+}
+.turismo-bienestar {		
+	padding-top: 30px;	
+}
 .row{
 	margin-right: -15px;
 	margin-left: -15px;
@@ -597,6 +619,20 @@ h3{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#yoga a:link{
+	color: rgb(30, 77, 207);
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+#yoga a:visited{
+	color: rgb(162, 50, 228);
+	}
+
+#yoga a:hover{
+	color: rgb(19, 54, 150);
+	font-size: 20px;
+	}
 #huerta{
 	background-color: aqua;
 	background-image: url(../img/logos/huerta2.png);
@@ -644,13 +680,7 @@ h3{
   .fondoRosa {
 	background-color: rgba(196, 82, 180, 0.65);
   }
-.turismo-aventura {	
-	text-align: center;
-	padding: 50px o;
-	background-color: white;	
-	color: black
-	
-}
+
 /* _____________________
 
 
