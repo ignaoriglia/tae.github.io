@@ -226,6 +226,13 @@ header{
 	
 	height: 100vh;
 }
+.foto-gruta {
+	background-image: url(../img/gruta-1.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
 
 /* _____________________
 
