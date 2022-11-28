@@ -739,15 +739,7 @@ h3{
 	justify-content:space-around;
 	padding-top: 30px;
 }
-.indicaciones2 {
-	text-align: center;	
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
-	color: black;	
-	display: flex;
-	align-items: center;
-	justify-content:space-around;
-	padding-top: 30px;
-}
+
 .indicaciones p{
 	font-size: 15px;
 }
@@ -862,14 +854,5 @@ header {
 	padding: 20px;
 	width: 100%;
 	}
-.indicaciones2 {
-	text-align: center;	
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
-	color: black;	
-	display: block;
-	align-items: center;
-	justify-content: space-between;
-	padding: 20px;
-	width: 100%;
-		}
+
 	}
