@@ -247,6 +247,20 @@ header{
 	
 	height: 100vh;
 }
+.foto-info {
+	background-image: url(../img/lago2.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
+.foto-lugares {
+	background-image: url(../img/lago.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
 /* _____________________
 
 
