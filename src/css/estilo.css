@@ -907,6 +907,9 @@ header {
 	justify-content: space-between;
 	padding: 20px;
 	width: 100%;
-	}
+}
 
+p {
+		font-family: Quicksand, sans-serif;
+}
 	}
