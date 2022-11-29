@@ -261,6 +261,20 @@ header{
 	
 	height: 100vh;
 }
+.foto-nosotros {
+	background-image: url(../img/nosotros/atracciones-horizontales-10.jpg );
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
+.foto-contacto {
+	background-image: url(../img/kayak-nov-22-41.jpg);
+	background-size: cover;
+	background-position: center center;	
+	
+	height: 100vh;
+}
 /* _____________________
 
 

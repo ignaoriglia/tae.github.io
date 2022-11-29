@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Turismo Alternativo Embalse</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@600&family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Bangers&family=Oswald:wght@600&family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="src/css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="src/css/normalize.css">
+</head>
+<body>
+	<div id="main-container"> 
+		<header class="foto-nosotros">
+			<nav>
+				<div class="mobile">
+					<div class="header">
+						<button id="bmenu">
+							<span class="material-symbols-outlined">menu</span>
+						</button>
+						<a href="index.html">HOME</a>						
+					</div>
+					<div class="links">						
+						<a href="informacion.html">Información</a>
+						<a href="lugares.html">Lugares para visitar</a>
+						<a href="alojamientos.html">Alojamientos</a>						
+						<a href="nosotros.html">Quienes Somos</a>
+						<a href="contacto.html">Contacto</a>
+					</div>
+				</div>
+				<ul>
+														
+					<li><a href="informacion.html" class="link">Información</a></li>
+					<li><a href="lugares.html" class="link link-hide">Lugares para visitar</a></li>
+					<li><a href="alojamientos.html" class="link link-hide">Alojamientos</a></li>
+					<li><a href="nosotros.html" class="link link-hide">¿Quienes Somos?</a></li>
+					<li><a href="contacto.html" class="link link-hide">Contacto</a></li>
+					<li><a href="index.html">HOME</a></li>						
+				</ul>
+			</nav>
+		</header>
+		
+		<section id="avistaje">
+			<div class="ful-img" id="fulImgBox">
+				<img src="src/img/yoga/yoga-13.jpg" id="fulImg" alt="">
+				<span onclick="closeImg()">X</span>
+			</div>
+            
+            <div id="avistaje-aves-2">
+				<h3> Quienes Somos? </h3>				
+				<p class="parrafo-especial"> <b>Profesionales, prestadores y aficionados </b> </p>
+			</div>
+			
+            <div class="grid-container">				
+				<div>	<img class="grid-item" src="src/img/nosotros/igna-1.jpg"onclick="openFulImg(this.src)" alt=""> <p>Ignacio Origlia, Biólogo, fotógrafo, guía habilitado </p></div>
+				
+			</div>
+
+			
+						
+        </section>
+    </div>  
+<footer>
+	<h4> Copyright - Todos los derechos reservados</h4>
+	<p> Seguinos en nuestras <b> redes </b> </p>
+	<div id="redes"> 
+	<div id="instagram"> 
+	<a href="https://www.instagram.com/descubrielpueblito/"> <img class="logo" height="50px" src="src/img/logos/logo-instagram.png"> </a>
+	
+	</div>
+	<div id="facebook"> 
+		<a href="https://www.facebook.com/descubrielpueblito/"> <img class="logo" height="50px" src="src/img/logos/logo-facebook.png">  </a>
+		
+	</div>
+	<div id="youtube"> 
+		<a href="https://www.instagram.com/descubrielpueblito/"> <img class="logo" height="50px" src="src/img/logos/logo-youtube.jpg"> </a>
+		
+	</div>
+	<div id="tiktok"> 
+		<a href="https://www.instagram.com/descubrielpueblito/"> <img class="logo" height="50px" src="src/img/logos/logo-tiktok.jpg"> </a>
+		
+	</div>
+	</div>
+	<button class="boton-subir"> <a href="#main-container"> <span class="material-symbols-outlined">
+		arrow_upward				</span> </a> </button>
+</footer>
+
+
+</div>
+<script src="src/js/main.js"></script>
+</body>
+
+</html>
