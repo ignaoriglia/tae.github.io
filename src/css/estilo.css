@@ -31,6 +31,7 @@ footer {
 	right: 20px;
 	z-index: 1;
 }
+
 .wasap a {
 	display: block;	
 }
@@ -60,9 +61,7 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 10px;
-	
-	
+	padding-top: 10px;	
 }
 
 nav ul {
@@ -71,7 +70,7 @@ nav ul {
 	padding: 0;
 	margin: 0;
 	font-size: 20px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Quicksand, sans-serif;
 	background-color: rgba(252, 195, 7, 0.918);
 	filter: opacity(0.9);
 	border-radius: 1px;
@@ -81,7 +80,7 @@ nav ul {
 }
 nav ul li > a{
 	display: block;
-	font-family: Quicksand;
+	font-family: Quicksand, sans-serif;
 	position: relative;
 	padding: 20px 15px 10px 15px;
 	text-decoration: none;
@@ -175,7 +174,7 @@ nav .mobile .links a:hover {
 
 	____________________*/
 
-header{
+.foto-header{
 	background-image: url(../img/mosaico-paisaje-1.jpg);
 	background-size: cover;
 	
@@ -288,7 +287,7 @@ header{
 #banner-home {
 	font-size: 1.4em;
 	
-	font-family: Quicksand;
+	font-family: Quicksand, sans-serif;
 	text-align: center;
 	padding: 20px;
 	width: 400px;
@@ -304,7 +303,7 @@ header{
 #banner-home2 {
 	font-size: 1.4em;
 	
-	font-family: Quicksand;
+	font-family: Quicksand, sans-serif;
 	text-align: center;
 	padding: 10px;
 	width: 400px;
@@ -321,7 +320,7 @@ header{
 
 #banner-alojamientos {
 	font-size: 1.4em;
-	font-family: Quicksand;
+	font-family: Quicksand, sans-serif;
 	text-align: center;
 	padding: 40px;
 	width: 500px;
@@ -720,20 +719,6 @@ h3{
 
 	____________________*/
 
-#paseo-1 {
-		text-align: center;	
-		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
-		color: black;
-		padding-top: 30px;
-	}
-#paseo-2 {
-	text-align: center;	
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
-	color: black;
-	padding-top: 30px;
-}
-
-
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
@@ -915,7 +900,7 @@ header {
 
 .indicaciones {
 	text-align: center;	
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;	
+	font-family:  Quicksand, sans-serif;
 	color: black;	
 	display: block;
 	align-items: center;
