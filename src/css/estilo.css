@@ -378,7 +378,7 @@ header{
 	margin: auto;
 	margin-top: 20px;
 	font-size: 1.2em;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Quicksand, sans-serif;
 	padding-top: 30 px;
 	text-align: center;
 }
@@ -388,14 +388,18 @@ header{
 	margin-top: 20px;
 	padding-top: 30 px;
 	text-align: center;
+	font-family:  Quicksand, sans-serif;
+	font-size: 1em;
 }
-
+p {
+font-family: Quicksand, sans-serif;
+}
 h3{
-	font-size: 1.7em;
-	font-family: Aboreto;
+	font-size: 1.9em;
+	font-family: 'Skranji', cursive;
 	padding-top: 20px;
 	padding-bottom: 15px;
-	color: black;
+	color: rgb(30, 153, 235);
 	text-align: center;
 }
 
@@ -482,7 +486,7 @@ h3{
 #kayak a:link{
 	color: rgb(30, 77, 207);
 	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Quicksand, sans-serif;
 	}
 
 #kayak a:visited{
@@ -505,7 +509,7 @@ h3{
 #senderismo a:link{
 	color: rgb(30, 77, 207);
 	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Quicksand, sans-serif;
 	}
 	
 #senderismo a:visited{
@@ -528,7 +532,7 @@ h3{
 #bici a:link{
 	color: rgb(30, 77, 207);
 	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Quicksand, sans-serif;
 	}
 	
 #bici a:visited{
@@ -564,7 +568,7 @@ h3{
 #avistaje-aves a:link{
 	color: rgb(30, 77, 207);
 	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Quicksand, sans-serif;
 	}
 	
 #avistaje-aves a:visited{
@@ -586,7 +590,7 @@ h3{
 #fotografia a:link{
 		color: rgb(30, 77, 207);
 		font-size: 15px;
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Quicksand, sans-serif;
 		}
 		
 #fotografia{
@@ -614,7 +618,7 @@ h3{
 #recorridos-historicos a:link{
 	color: rgb(30, 77, 207);
 	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Quicksand, sans-serif;
 	}
 	
 #recorridos-historicos a:visited{
@@ -636,7 +640,7 @@ h3{
 #yoga a:link{
 	color: rgb(30, 77, 207);
 	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Quicksand, sans-serif;
 	}
 	
 #yoga a:visited{
@@ -657,7 +661,7 @@ h3{
 #huerta a:link{
 	color: rgb(30, 77, 207);
 	font-size: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Quicksand, sans-serif;
 	}
 	
 #huerta a:visited{
